@@ -1,0 +1,14 @@
+.blog__date {
+  margin: 5px 0 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.15em;
+}
+
+@media screen and (max-width: 830px) {
+  .blog__date {
+    text-align: center;
+  }
+}

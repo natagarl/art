@@ -1,0 +1,21 @@
+.footer__link {
+  margin: 0;
+  padding: 0;
+  display: block;
+  color: black;
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  transition: opacity 0.2s ease;
+}
+
+@media (hover:hover) {
+  .footer__link:hover {
+    opacity: 0.5;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .footer__link {
+    font-size: 12px;
+  }
+}

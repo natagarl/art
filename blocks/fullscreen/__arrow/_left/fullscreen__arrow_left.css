@@ -1,0 +1,9 @@
+.fullscreen__arrow_left {
+  grid-area: arrowl;
+}
+
+@media screen and (max-width: 766px) {
+  .fullscreen__arrow_left {
+    justify-self: end;
+  }
+}

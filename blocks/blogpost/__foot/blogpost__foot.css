@@ -1,0 +1,5 @@
+.blogpost__foot {
+  grid-area: foot;
+  padding-top: 30px;
+  margin: auto;
+}

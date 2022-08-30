@@ -1,0 +1,20 @@
+.fullscreen__content-box {
+  margin: auto;
+  max-width: 1140px;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: min-content 1fr min-content;
+  grid-template-areas: 'arrowl img arrowr';
+  align-items: center;
+  justify-items: center;
+  position: relative;
+}
+
+@media screen and (max-width: 766px) {
+  .fullscreen__content-box {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr min-content;
+    grid-template-areas: 'img img'
+                          'arrowl arrowr';
+  }
+}

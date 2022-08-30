@@ -1,0 +1,12 @@
+.blogpost__nav_prev-top {
+  grid-area: prev-top;
+  margin-left: 10px;
+  margin-bottom: auto;
+}
+
+@media screen and (max-width: 900px) {
+  .blogpost__nav_prev-top {
+    margin: 0 0 10px;
+    text-align: right;
+  }
+}

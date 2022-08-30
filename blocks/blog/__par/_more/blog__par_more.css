@@ -1,0 +1,12 @@
+.blog__par_more {
+  text-decoration: underline;
+  text-align: end;
+  /* margin-top: auto; */
+  transition: opacity 0.2s ease;
+}
+
+@media (hover:hover) {
+  .blog__par_more:hover {
+    opacity: 0.5;
+  }
+}

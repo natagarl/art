@@ -1,0 +1,29 @@
+.fullscreen__arrow {
+  border: none;
+  background-color: transparent;
+  font-size: 32px;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  transition: opacity 0.2s ease;
+}
+
+@media (hover:hover) {
+  .fullscreen__arrow:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+}
+
+
+@media screen and (max-width: 1180px) {
+  .fullscreen__arrow {
+    margin: 0 30px;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .fullscreen__arrow {
+    margin-bottom: 30px;
+  }
+}

@@ -1,0 +1,29 @@
+.header__logo {
+  /* max-width: 267px; */
+  /* display: block; */
+  grid-area: logo;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  letter-spacing: 1.2em;
+  transition: opacity 0.2s ease;
+}
+
+@media (hover:hover) {
+  .header__logo:hover {
+    opacity: 0.5;
+  }
+}
+
+
+@media screen and (max-width: 830px) {
+  .header__logo {
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .header__logo {
+    font-size: 16px;
+  }
+}

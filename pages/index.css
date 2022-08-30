@@ -1,0 +1,39 @@
+@import url(../vendor/normalize.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* page */
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/__container/page__container.css);
+
+/* header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/logo/header__logo.css);
+@import url(../blocks/header/nav/header__nav.css);
+@import url(../blocks/header/nav-item/header__nav-item.css);
+@import url(../blocks/header/nav-item/_active/header__nav-item_active.css);
+@import url(../blocks/header/langs/header__langs.css);
+@import url(../blocks/header/lang/header__lang.css);
+@import url(../blocks/header/lang/_active/header__lang_active.css);
+
+/* main */
+@import url(../blocks/main/main.css);
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__column/photo-grid__column.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+
+/* footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+
+/* fullscreen */
+@import url(../blocks/fullscreen/fullscreen.css);
+@import url(../blocks/fullscreen/_disabled/fullscreen_disabled.css);
+@import url(../blocks/fullscreen/__content-box/fullscreen__content-box.css);
+@import url(../blocks/fullscreen/__picture-container/fullscreen__picture-container.css);
+@import url(../blocks/fullscreen/__picture/fullscreen__picture.css);
+@import url(../blocks/fullscreen/__esc/fullscreen__esc.css);
+@import url(../blocks/fullscreen/__arrow/fullscreen__arrow.css);
+@import url(../blocks/fullscreen/__arrow/_left/fullscreen__arrow_left.css);
+@import url(../blocks/fullscreen/__arrow/_right/fullscreen__arrow_right.css);

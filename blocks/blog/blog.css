@@ -1,0 +1,26 @@
+.blog {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+}
+
+@media screen and (max-width: 1060px) {
+  .blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .blog {
+    padding: 0 20px 0;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .blog {
+    padding: 0;
+  }
+}

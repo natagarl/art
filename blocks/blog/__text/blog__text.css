@@ -1,0 +1,31 @@
+.blog__text {
+  grid-area: text;
+  margin-left: 30px;
+  max-width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1160px) {
+  .blog__text {
+    margin: 0 20px 0 30px;
+  }
+}
+@media screen and (max-width: 830px) {
+  .blog__text {
+    margin: 30px 0 0;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .blog__text {
+    margin: 30px 20px 0;
+  }
+}
+@media screen and (max-width: 380px) {
+  .blog__text {
+    margin: 20px 20px 0;
+  }
+}

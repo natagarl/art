@@ -1,0 +1,21 @@
+.blog__link {
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 'img text';
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 830px) {
+  .blog__link {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, min-content);
+    grid-template-areas: 'img'
+                          'text';
+    max-width: 590px;
+    justify-items: center;
+    /* margin: auto; */
+    /* margin-bottom: 60px; */
+  }
+}

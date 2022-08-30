@@ -1,0 +1,20 @@
+.header__lang {
+  color: black;
+  transition: opacity 0.2s ease;
+  letter-spacing: 0.15em;
+  font-size: 16px;
+}
+
+@media (hover:hover) {
+  .header__lang:hover {
+    opacity: 0.5;
+  }
+}
+
+
+
+@media screen and (max-width: 380px) {
+  .header__lang {
+    font-size: 12px;
+  }
+}

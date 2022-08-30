@@ -1,0 +1,9 @@
+.blogpost__nav_unactive {
+  opacity: 0.3;
+}
+@media (hover:hover) {
+  .blogpost__nav_unactive:hover {
+    cursor: default;
+    opacity: 0.3;
+  }
+}

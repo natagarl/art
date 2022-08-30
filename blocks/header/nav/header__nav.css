@@ -1,0 +1,8 @@
+.header__nav {
+  grid-area: nav;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  justify-self: center;
+}
